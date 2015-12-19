@@ -3,8 +3,8 @@ import gulp from 'gulp'
 import {argv} from 'yargs'
 import Help from 'gulp-task-help'
 import clean from '@mitmaro/gulp-clean';
+import babelMocha from '@mitmaro/gulp-babel-mocha';
 import buildBabel from './src/BuildBabel';
-import {babelMocha} from '@mitmaro/gulp-tasks';
 
 const options = {
 	destination: argv.destination || './lib',

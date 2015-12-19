@@ -8,3 +8,4 @@ gulpfile.js
 esdoc.json
 .istanbul.yml
 test
+*.tgz
